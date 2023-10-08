@@ -1,0 +1,51 @@
+body{
+    margin: 20px 80px;
+    background-image: url(pic/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+.contact{
+    width: 800px;
+    margin: 50px auto;  /* first param top & bottom */
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-color: rgba(3, 8, 27, 0.5);
+;
+    color: white ;            /*color combos */  
+  
+    /*color palet from coolers.co*/
+
+    border-radius: 20px;
+    border: 5px solid #a5a5a5;
+    border-bottom: 4px solid #a5a5a5;
+}
+
+.order{
+    text-align:left;
+}
+
+.h2{
+    color: white;
+    font-size: 60px;
+}
+
+.button {
+    margin-top: 40px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: #007bff;
+    border-radius: 40px;
+    padding: 14px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
